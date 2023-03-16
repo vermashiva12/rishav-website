@@ -2,10 +2,12 @@ import React from 'react'
 
 const Services = () => {
   return (
+    /** These Services has further breakdown into another pages */
     <div id='Services' className='max-w-[1140px] m-auto w-full md:flex mt-[-5px] py-12'>
         {/* <div className='flex flex-col items-center py-4'>
             <p className='text-4xl font-bold inline border-b-4 border-pink-500 text-gray-600'>Services</p>
         </div> */}
+
         <div className='py-12'>
        <h2 className='text-4xl font-bold inline text-center  text-black/90'>Top Services</h2>
        </div>
