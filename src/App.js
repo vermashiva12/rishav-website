@@ -21,6 +21,7 @@ import {
 
 
 import Slider from './components/slider';
+import Appointment from './components/Appointment';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
      <TopBar />
      <Navbar />
      <Hero />
+     <Appointment />
      <Services />
     
      <Choose />
@@ -36,13 +38,7 @@ function App() {
 
      <About />
    
-    <Router>
-      <div>
-      <Routes>
-        <Route exact path='/service_a' element={<Test />} ></Route>
-      </Routes>
-      </div>
-    </Router>
+    
 
     
 

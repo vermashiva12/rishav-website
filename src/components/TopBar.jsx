@@ -1,6 +1,6 @@
 import React from 'react'
 import {AiFillPhone, AiOutlineClockCircle} from 'react-icons/ai'
-
+import { Link } from 'react-router-dom'
 import Logo from '../assets/mainLogo.svg'
 import Cl from '../assets/catelogue.pdf'
 
@@ -10,7 +10,7 @@ const TopBar = () => {
     <div className='flex justify-between  bg-neutral-200 items-center px-4 py-8'>
         <div className='flex items-center max-h-[25px] '>
             <img src={Logo}  alt="Logo" style={{width: '180px' , height: '150px'}} />
-            <h1 className='text-3xl text-black '>Humble Glorious Glass  </h1>
+            <Link to='/' > <h1 className='text-3xl flex hidden lg:flex md:flex text-black '>Humble Glorious Glass  </h1> </Link>
 
         </div>
         <div className='flex'>
