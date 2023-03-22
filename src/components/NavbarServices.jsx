@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {FaBars,FaFacebookF,FaFacebook,FaInstagram,FaGooglePlusG} from 'react-icons/fa';
+import {FaBars,FaFacebookF,FaFacebook,FaInstagram,FaWhatsapp,FaGooglePlusG} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Cl from '../assets/catelogue.pdf'
@@ -45,6 +45,9 @@ const NavbarServices = () => {
         <a rel="noreferrer" href='https://www.instagram.com/humble_glorious/?igshid=YmMyMTA2M2Y%3D'target= "_blank" >
         <FaInstagram className='mx-4'/>
         </a>
+        <a rel="noreferrer" href='https://www.instagram.com/humble_glorious/?igshid=YmMyMTA2M2Y%3D'target= "_blank" >
+        <FaWhatsapp className='mx-4'/>
+        </a>
     </div>
     {/** HameBurguer Icon */}
     <div onClick={handleNav}  className='sm:hidden z-10 '>
@@ -85,6 +88,7 @@ const NavbarServices = () => {
                      href='https://www.instagram.com/humble_glorious/?igshid=YmMyMTA2M2Y%3D' rel="noreferrer" target='_blank'>
                         Instagram <FaInstagram  size={30}/>
                     </a>
+                    
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-green-600'>
                     <a className='flex justify-between items-center w-full text-white'
