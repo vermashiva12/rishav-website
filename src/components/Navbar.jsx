@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {FaBars,FaFacebookF,FaFacebook,FaInstagram,FaGooglePlusG} from 'react-icons/fa';
+import {FaBars,FaFacebookF,FaFacebook,FaInstagram,FaGooglePlusG, FaWhatsapp} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Cl from '../assets/catelogue.pdf'
@@ -40,6 +40,9 @@ const Navbar = () => {
         </a>
         <a rel="noreferrer" href='https://www.instagram.com/humble_glorious/?igshid=YmMyMTA2M2Y%3D'target= "_blank" >
         <FaInstagram className='mx-4'/>
+        </a>
+        <a rel="noreferrer" href='https://www.instagram.com/humble_glorious/?igshid=YmMyMTA2M2Y%3D'target= "_blank" >
+        <FaWhatsapp className='mx-4'/>
         </a>
     </div>
     {/** HameBurguer Icon */}
