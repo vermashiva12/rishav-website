@@ -10,7 +10,7 @@ const Appointment = () => {
         <h1 className=' text-center'>Book an Appointment</h1>
        
          </div>
-         <div className='justify-between py-2 mx-auto'>
+         <div className='justify-between py-2 mx-auto px-20'>
          <a href='https://calendly.com/humblegloriousglass' target='_blank'  rel='noreferrer'>
 
 <button >Click Here to Book</button>
