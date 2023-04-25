@@ -1,7 +1,10 @@
 import React from 'react'
 
 import C from '../assets/projects/project_c.PNG'
-
+import A from '../assets/projects/project_a.jpg'
+import D from '../assets/projects/project_d.jpg'
+import E from '../assets/projects/project_e.jpg'
+import F from '../assets/projects/project_f.jpg'
 
 
 const Projects = () => {
@@ -22,17 +25,22 @@ const Projects = () => {
             <div>
                 <img  
                 className='w-full h-full object-cover '
-                src='https://images.adsttc.com/media/images/623a/ccba/3e4b/3174/1a00/0011/large_jpg/FI.jpg?1648020659' alt='Test_b'/>
+                src={A} alt='Test_b'/>
             </div>
             <div>
                 <img  
                 className='w-full h-full object-cover '
-                src='https://images.adsttc.com/media/images/623a/ccba/3e4b/3174/1a00/0011/large_jpg/FI.jpg?1648020659' alt='Tes_b' />
+                src={D} alt='Tes_b' />
             </div>
             <div>
                 <img  
                 className='w-full h-full object-cover '
-                src='https://images.adsttc.com/media/images/623a/ccba/3e4b/3174/1a00/0011/large_jpg/FI.jpg?1648020659' alt='Test_b' />
+                src={E} alt='Test_b' />
+            </div>
+            <div>
+                <img  
+                className='w-full h-full object-cover '
+                src={F} alt='Test_b' />
             </div>
         </div>
     </div>

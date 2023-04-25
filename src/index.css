@@ -1,13 +1,17 @@
 @tailwind components;
  @tailwind utilities;
  @tailwind base;
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&display=swap');
 
  :root {
   --primary-dark: #5651e5;
   --primary-light:#709dff;
 }
+
 @layer base {
-  h1 {
+  /* h1 {
      font-family: oswald, sans-serif;
     font-style: normal;
     font-weight: 900; 
@@ -18,14 +22,14 @@
 
     /* font-family: railroad-gothic-atf, sans-serif;
 font-style: normal;
-font-weight: 800; */
-    
-  } 
-  li, p
+font-weight: 800; }  */
+  li,p
   {
     font-family: buena-park-jf, serif;
 font-style: normal;
 font-weight: 700;
+
+
   }
 
   html{
@@ -39,7 +43,22 @@ font-weight: 700;
   }
   h2 {
     @apply text-xl font-semibold;
+    font-family: 'Bebas Neue', cursive;
 
+  }
+  .head{
+    font-family: 'Bebas Neue', cursive;
+  }
+  .but{
+    font-family: 'Bebas Neue', cursive;
+  }
+  .about{
+    
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+  }
+  .li-items{
+    font-family: 'Bebas Neue', cursive;
   }
   
 }
