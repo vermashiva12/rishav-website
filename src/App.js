@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Choose from './components/Choose';
 
+
 import Test from './components/test';
 import {
   Route,
@@ -40,7 +41,6 @@ function App() {
    
     
 
-    
 
      <Contact />
      <Footer />

@@ -1,16 +1,17 @@
 import React, {useState,useEffect,useRef} from 'react'
-import { BsChevronCompactLeft } from 'react-icons/bs';
-import { BsChevronCompactRight } from 'react-icons/bs';
+import { BsChevronCompactLeft,  BsChevronCompactRight } from 'react-icons/bs';
 
 const Hero = () => {
  
   const slides =[
     
     {
-        url: 'https://images.adsttc.com/media/images/623a/ccba/3e4b/3174/1a00/0011/large_jpg/FI.jpg?1648020659'
+       // url: 'https://images.adsttc.com/media/images/623a/ccba/3e4b/3174/1a00/0011/large_jpg/FI.jpg?1648020659'
+       url: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/70744f141103295.624d99662ca36.jpg'
     },
     { 
-      url: 'http://cdn.home-designing.com/wp-content/uploads/2018/05/d0c0d160644969.5a54b9c7844b6.jpg'
+     // url: 'http://cdn.home-designing.com/wp-content/uploads/2018/05/d0c0d160644969.5a54b9c7844b6.jpg'
+      url: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ebf46a155100677.634ec8a8b323e.jpg'
     }
    
 
@@ -53,8 +54,8 @@ const Hero = () => {
   //       <img  src="https://images.adsttc.com/media/images/623a/ccba/3e4b/3174/1a00/0011/large_jpg/FI.jpg?1648020659" alt="bg3" className='w-full h-full object-cover'/>
   //       </div>
   <div ref={slideRef} className=' max-h-[850px] w-full h-screen m-auto   group relative'>
-    <div  style={{backgroundImage: `url(${slides[currentIndex].url})` }} 
-    className='w-full h-full object-cover  bg-center bg-cover duration-500'>
+    <div  style={{backgroundImage: `url(${slides[currentIndex].url})`   } } 
+    className='w-full h-full object-fill  bg-center bg-cover  duration-500'>
         </div>
         <div className='hidden group-hover:block absolute top-[50%] translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
             <BsChevronCompactLeft onClick={prevSlide} size={50} />
