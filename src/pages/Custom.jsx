@@ -23,7 +23,7 @@ const Custom = () => {
        
        
         <div >
-            <img src={F} alt='Logo'  className='h-full '/>
+            <img src={F} alt='Logo'  className='h-full w-full '/>
         </div>
     <div className=' py-4  text-center'>
       <div className='items-center '>
