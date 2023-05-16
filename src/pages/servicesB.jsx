@@ -23,7 +23,7 @@ const ServicesB = () => {
        
        
         <div >
-            <img src={C} alt='Logo' className='h-full ' />
+            <img src={C} alt='Logo' className='h-full w-full justify-center ' />
         </div>
     <div className=' py-4  text-center'>
       <div className='items-center '>
