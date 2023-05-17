@@ -4,6 +4,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
  :root {
   --primary-dark: #5651e5;
@@ -23,7 +24,7 @@
     /* font-family: railroad-gothic-atf, sans-serif;
 font-style: normal;
 font-weight: 800; }  */
-  li,p
+  li
   {
     font-family: buena-park-jf, serif;
 font-style: normal;
@@ -59,6 +60,14 @@ font-weight: 700;
   }
   .li-items{
     font-family: 'Bebas Neue', cursive;
+  }
+  .font-style-text {
+
+    font-weight: bold; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+   
+
   }
   
 }
